@@ -4,6 +4,7 @@
 *.so
 *.log
 .dependencies
+.directory
 po/*.mo
 po/*.pot
 client/node_modules/

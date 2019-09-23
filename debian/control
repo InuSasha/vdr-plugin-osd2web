@@ -1,0 +1,15 @@
+Source: vdr-plugin-osd2web
+Section: video
+Priority: extra
+Maintainer: Sascha Kuehndel <dev@inusasha.de>
+Uploaders: Sascha Kuehndel <dev@inusasha.de>
+Build-Depends: debhelper (>= 9), vdr-dev (>= 2.2.0), libjansson-dev, libtinyxml2-dev, libwebsockets-dev (>= 2.4.2), libexif-dev, pkg-config
+Standards-Version: 3.9.6
+Homepage: https://github.com/horchi/vdr-plugin-osd2web
+Vcs-Git: https://github.com/InuSasha/vdr-plugin-osd2web.git
+Vcs-Browser: https://github.com/InuSasha/vdr-plugin-osd2web
+
+Package: vdr-plugin-osd2web
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${vdr:Depends}, libjansson4, libtinyxml2-6a, libwebsockets12 (>= 2.4.2), libexif12
+Description: osd2web ist ein VDR Skin Interface für den Browser, der das OSD anzeigt und alle Interaktionen welche am OSD möglich sind zulässt.

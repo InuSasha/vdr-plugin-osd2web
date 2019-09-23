@@ -1,0 +1,6 @@
+vdr-plugin-osd2web (0.2.49.dev) unstable; urgency=low
+
+  * initial checkin
+  * Standards-Version: 3.9.6
+
+ -- Sascha Kuehndel <dev@inusasha.de>  Mon, 23 Sep 2019 21:16:00 +0200
